@@ -50,7 +50,7 @@ public class HotMethodsApplication implements SampleApplication {
         }
 
         Random random = new Random();
-        System.out.println("Checking Random Prime numbers:");
+        System.out.println("Checking Random Prime numbers:-");
         int count = 0;
         for (int i = 1; i < randomNumbersCount; i++) {
             int randomNumber = random.nextInt(max);
